@@ -1,0 +1,497 @@
+/*
+ Template Name: Peter Morgan Responsive Portfolio Template
+ Template URI: http://bashir-rased.com/portfolio/Demo-1
+ Author: Bashir Rased
+ Author URI: http://bashir-rased.com/
+ Version: 1.0.1
+*/
+
+/*
+=========================================
+----- Header Area Styles Start Here -----
+=========================================
+*/
+header{
+	width:100%;
+	height:100%;
+	background:#eee;
+	position:relative;
+	overflow:hidden;
+}
+
+.header-top{
+	padding:10px 0px; 
+	color:white;
+}
+
+.header-top-right{
+	float:right;
+}
+
+.header-menu-left h1 a{
+	text-decoration:none;
+}
+
+.header-menu-area{
+	height:100px;
+	background:white;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.fixed-header{
+	width:100%;
+	position:fixed;
+	top:0;
+	z-index:10 !important;
+	margin-bottom:100px;
+}
+
+.header-menu-left h1{
+	font-size:35px;
+	line-height:100px;
+	cursor:pointer;
+}
+
+.header-menu-right{
+	z-index:2;
+}
+
+.header-menu{
+	float:right;
+}
+
+.slicknav_menu {
+	display:none;
+	height:100px;
+	background:none;
+}
+
+.slicknav_btn{
+	margin-top:30px;
+	text-shadow:none;
+}
+
+.slicknav_nav{
+	margin-top:95px;
+	text-align:center;
+	line-height:35px;
+}
+
+.slicknav_nav a:hover{
+	background:white;	
+}
+
+.header-menu ul{
+	list-style:none;
+}
+
+.header-menu li{
+	float:left;
+	line-height:100px;
+	padding:0px 15px;
+}
+
+.header-menu a{
+	text-decoration:none;
+}
+
+.smooth-scroll{
+	color:black;
+}
+
+.header-left-area{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	margin-top:135px;
+}
+
+.header-left-area p{
+	font-size:30px;
+}
+
+.header-left-area h1{
+	font-size:75px;
+	margin-top:5px;
+	margin-bottom:20px;
+}
+
+.header-social-btn ul{
+	list-style:none;
+}
+
+.header-social-btn li{
+	display:inline-block;
+	margin-left:10px;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	cursor:pointer;
+	font-size:20px;
+	margin-bottom:20px;
+}
+
+.header-social-btn li:first-child{
+	margin-left:0px;
+}
+
+.header-social-btn li:hover a{
+	color:white;
+}
+
+.header-right-area{
+	position:absolute;
+	bottom:0;
+	right:120px;
+}
+
+.header-right-area img{
+	height: calc(100vh - 170px);
+	float:right;
+}
+/* -- Header Area Styles End Here --*/
+
+/*
+===============================================
+----- Blog Section Area Styles Start Here -----
+===============================================
+*/
+#blog-area{
+	background:#eeeeee;
+}
+
+article{
+	background:white;
+	padding:20px 30px;
+	height:100%;
+}
+
+.blog-title{
+	margin:20px 0px;
+}
+
+.blog-title a{
+	text-decoration:none;
+	color:black;
+}
+
+.blog-img{
+	margin:20px 0px;
+	position:relative;
+}
+
+.blog-img img{
+	width:100%;
+}
+
+.blog-cat{
+	position:absolute;
+	top:20px;
+	left:20px;
+}
+
+.blog-cat a{
+	color:white;
+	text-decoration:none;
+	padding:5px 20px;
+}
+
+.blog-details{
+	margin:20px 0px;
+}
+
+.blog-details a{
+	text-decoration:none;
+	color:black;
+}
+
+.blog-writer, .blog-time, .blog-views, .blog-comment{
+	display:inline-block;
+	margin-right:20px;
+}
+
+.blog-content{
+	margin:20px 0px;
+	text-align:justify;
+}
+
+.read-more{
+	text-align:right;
+	margin:40px 0px;
+}
+
+.read-more a{
+	text-decoration:none;
+	color:white;
+	padding:10px 30px;
+}
+
+.read-more a:hover{
+	background:none;
+}
+
+.blog-pagination{
+	margin-top:40px;
+}
+
+.blog-pagination li{
+	float:left;
+	display:inline-block;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	margin-right:15px;
+	margin-bottom:15px;
+}
+
+.blog-pagination a{
+	text-decoration:none;
+	display:block;
+}
+
+.blog-pagination li:hover a{
+	color:white;
+}
+
+/* Sidebar Area Start Here */
+aside{
+	background:white;
+	padding:20px 30px;
+	height:100%;
+}
+
+.sidebar-title{
+	text-align:center;
+	margin:20px 0px;
+	font-weight:700;
+	padding:10px 0px;
+	color:white;
+}
+
+.sidebar-content{
+	text-align:justify;
+}
+
+/* 1. Single Blog Search Box Start Here */
+.sidebar-search-box{
+	width:100%;
+	padding:10px 20px;
+	position:relative;
+}
+
+.sidebar-search-box input{
+	border:none;
+	width:100%;
+	height:100%;
+}
+
+.sidebar-search-submit{
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:50px;
+	height:100%;
+	color:white;
+	border:none;
+	font-size:20px;
+	cursor:pointer;
+	display:block;
+}
+/* 1. Single Blog Search Box End Here */
+
+/* 2. Single Blog User Info Start Here */
+.blog-sidebar-admin-img{
+	padding:10px;
+	margin-bottom:20px;
+}
+
+.blog-sidebar-admin-img img{
+	width:100%;
+	height:100%;
+}
+/* 2. Single Blog User Info End Here */
+
+/* 3. Single Blog Recent Post List Start Here */
+.sidebar-recent-post-list li{
+	margin-bottom:10px;
+	list-style-type: square;
+	margin-left:15px;
+}
+
+.sidebar-recent-post-list a{
+	text-decoration:none;
+	color:black;
+}
+/* 3. Single Blog Recent Post List End Here */
+
+/* 4. Single Blog Recent Comments List Start Here */
+.sidebar-recent-comments-list li{
+	list-style:none;
+	margin-bottom:40px;
+	display:inline-block;
+}
+
+.sidebar-recent-comments-list a{
+	text-decoration:none;
+	color:black;
+}
+
+.sidebar-recent-comments-time{
+	margin-bottom:10px;
+}
+
+.sidebar-recent-comments-person{
+	width:80px;
+	height:80px;
+	padding:5px;
+	float:left;
+	margin-right:15px;
+}
+
+.sidebar-recent-comments-person img{
+	width:100%;
+	height:100%;
+}
+/* 4. Single Blog Recent Comments List End Here */
+
+/* 5. Single Blog Popular Post List Start Here */
+.sidebar-popular-post-list li{
+	margin-bottom:10px;
+	list-style-type: square;
+	margin-left:15px;
+}
+
+.sidebar-popular-post-list a{
+	text-decoration:none;
+	color:black;
+}
+/* 5. Single Blog Popular Post List End Here */
+
+/* 6. Single Blog Category List Start Here */
+.sidebar-cat-list li{
+	margin-bottom:10px;
+	list-style-type: square;
+	margin-left:15px;
+}
+
+.sidebar-cat-list a{
+	text-decoration:none;
+	color:black;
+}
+
+.sidebar-cat-list-right{
+	float:right;
+}
+/* 6. Single Blog Category List End Here */
+
+/* 7. Single Blog Calendar Start Here */
+.calendar{
+	width:100%;
+}
+
+.calendar caption{
+	caption-side:top;
+	text-align:center;
+}
+
+.calendar tr{
+	text-align:center;
+}
+
+.rapCalendar{
+	padding:8px;
+	color:black;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+}
+.rapCalendar table{
+	margin:0px auto;
+	border-spacing:0px;
+    border-collapse:separate;
+}
+.rapCalendar caption{
+	font-weight:bold;
+}
+.rapCalendar thead{
+	color:black;
+}
+.rapCalendar tbody td{
+	text-align: center;
+	border: 1px solid transparent;
+	width:35px;
+	height:35px;
+}
+.rapCalendar .calDisable{
+	color:black;
+}
+
+.rapCalendar .calSelected, .rapCalendar .calSelectable:hover{
+	color:white;
+	cursor:pointer;
+}
+.rapCalendar .larr{
+	color:black;
+	cursor:pointer;
+	float:left;
+}
+
+.rapCalendar .larr:before{
+	content:"◄";
+}
+
+.rapCalendar .rarr{
+	color:black;
+	cursor:pointer;
+	float:right;
+}
+
+.rapCalendar .rarr:before{
+	content:"►";
+}
+/* 7. Single Blog Calendar End Here */
+/* Sidebar Area End Here */
+/* -- Blog Section Area Styles End Here --*/
+
+/*
+=========================================
+----- Footer Area Styles Start Here -----
+=========================================
+*/
+footer{
+	padding:70px 0px;
+	background:#1c1c1c;
+	color:white;
+	text-align:center;	
+}
+
+.footer-social-btn ul{
+	list-style:none;
+}
+
+.footer-social-btn li{
+	display:inline-block;
+	margin-left:10px;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	border:1px solid white;
+	cursor:pointer;
+	font-size:20px;
+	margin-bottom:20px;
+}
+
+.footer-social-btn li:first-child{
+	margin-left:0px;
+}
+
+.footer-social-btn a{
+	color:white;
+}
+
+.footer-social-btn li:hover a{
+	color:white;
+}
+/* -- Footer Area Styles End Here --*/

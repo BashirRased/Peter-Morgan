@@ -1,0 +1,61 @@
+/*
+ Template Name: Peter Morgan Responsive Portfolio Template
+ Template URI: http://bashir-rased.com/portfolio/Demo-1
+ Author: Bashir Rased
+ Author URI: http://bashir-rased.com/
+ Version: 1.0.1
+*/
+
+.rapCalendar{
+	border: 1px solid red;
+	padding:8px;
+	color:black;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+}
+.rapCalendar table{
+	margin:0px auto;
+	border-spacing:0px;
+    border-collapse:separate;
+}
+.rapCalendar caption{
+	color:red;
+	font-weight:bold;
+}
+.rapCalendar thead{
+	color:black;
+}
+.rapCalendar tbody td{
+	text-align: center;
+	border: 1px solid transparent;
+	width:35px;
+	height:35px;
+}
+.rapCalendar .calDisable{
+	color:black;
+}
+
+.rapCalendar .calSelected, .rapCalendar .calSelectable:hover{
+	border-color:red;
+	background-color:red;
+	color:white;
+	cursor:pointer;
+}
+.rapCalendar .larr{
+	color:black;
+	cursor:pointer;
+	float:left;
+}
+.rapCalendar .larr:before{
+	content:"◄";
+}
+
+.rapCalendar .rarr{
+	color:black;
+	cursor:pointer;
+	float:right;
+}
+
+.rapCalendar .rarr:before{
+	content:"►";
+}

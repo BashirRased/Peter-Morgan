@@ -1,0 +1,1050 @@
+/*
+ Template Name: Peter Morgan Responsive Portfolio Template
+ Template URI: http://bashir-rased.com/portfolio/Demo-1
+ Author: Bashir Rased
+ Author URI: http://bashir-rased.com/
+ Version: 1.0.1
+*/
+
+/*
+	Table of Contents :
+	-------------------
+	01. Header
+	02. About Me
+	03. Skills
+	04. Resume
+	05. Countdown
+	06. Services
+	07. Hire Me
+	08. Portfolio
+	09. Testimonials
+	10. Blog
+	11. Subscribe
+	12. Contact Me
+	13. Footer
+
+*/
+
+/*
+=============================================
+----- 01. Header Area Styles Start Here -----
+=============================================
+*/
+
+header{
+	width:100%;
+	height:100%;
+	min-height:100vh;
+	background:#eee;
+	position:relative;
+	overflow:hidden;
+}
+
+.header-top{
+	padding:10px 0px; 
+	color:white;
+}
+
+.header-top-right{
+	float:right;
+}
+
+.header-menu-left h1 a{
+	text-decoration:none;
+}
+
+.header-menu-area{
+	height:100px;
+	background:white;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.fixed-header{
+	width:100%;
+	position:fixed;
+	top:0;
+	z-index:10 !important;
+	margin-bottom:100px;
+}
+
+.header-menu-left h1{
+	font-size:35px;
+	line-height:100px;
+	cursor:pointer;
+}
+
+.header-menu-right{
+	z-index:2;
+}
+
+.header-menu{
+	float:right;
+}
+
+.slicknav_menu {
+	display:none;
+	height:100px;
+	background:none;
+}
+
+.slicknav_btn{
+	margin-top:30px;
+	text-shadow:none;
+}
+
+.slicknav_nav{
+	margin-top:95px;
+	text-align:center;
+	line-height:35px;
+}
+
+.slicknav_nav a:hover{
+	background:white;	
+}
+
+.header-menu ul{
+	list-style:none;
+}
+
+.header-menu li{
+	float:left;
+	line-height:100px;
+	padding:0px 15px;
+}
+
+.header-menu a{
+	text-decoration:none;
+}
+
+.smooth-scroll{
+	color:black;
+}
+
+.header-left-area{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	margin-top:135px;
+}
+
+.header-left-area p{
+	font-size:30px;
+}
+
+.header-left-area h1{
+	font-size:60px;
+	font-weight:bold;
+	margin-top:5px;
+	margin-bottom:20px;
+}
+
+.header-left-area h1 span.title-common-text{
+	color:black;
+}
+
+.header-social-btn ul{
+	list-style:none;
+}
+
+.header-social-btn li{
+	display:inline-block;
+	margin-left:10px;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	cursor:pointer;
+	font-size:20px;
+	margin-bottom:20px;
+}
+
+.header-social-btn li:first-child{
+	margin-left:0px;
+}
+
+.header-social-btn li:hover a{
+	color:white;
+}
+
+.header-right-area{
+	position:absolute;
+	bottom:0;
+	right:120px;
+}
+
+.header-right-area img{
+	height: calc(100vh - 170px);
+	float:right;
+}
+/* -- Header Area Styles End Here --*/
+
+/*
+===============================================
+----- 02. About Me Area Styles Start Here -----
+===============================================
+*/
+.about-me-img{
+	padding:10px;
+	border-radius:10px;
+}
+
+.about-me-img img{
+	width:100%;
+}
+
+.about-me-img-after{
+	margin:10px 0px;
+	position:relative;
+	padding-left:25px;
+}
+
+.about-me-img-after:after{
+	content:"";
+	top:50%;
+	left:0;
+	position:absolute;
+	width:15px;
+	height:15px;
+	border-radius:50%;	
+	margin-left:0px;
+	transform:translateY(-50%);
+}
+
+.about-me-content h1{
+	position:relative;
+	font-weight:700;
+	display:inline-block;
+}
+
+.about-me-content h1:after{
+	position:absolute;
+	content:"";
+	bottom:-5px;
+	left:0;
+	width:75%;
+	height:3px;
+}
+
+.about-me-details{
+	line-height:26px;
+	margin:20px 0px;
+}
+
+.about-me-user-info{
+	line-height:35px;
+}
+
+.about-me-user-info li{
+	margin-left:25px;
+}
+
+.about-me-user-info-title{
+	font-weight:bold;
+}
+
+.about-me-user-info-details{
+	color:black;
+}
+
+.about-me-user-btn button{
+	margin-right:20px;
+	margin-bottom:20px;
+	display:inline-block;
+	cursor:pointer;
+	padding:10px 30px;
+}
+
+.about-me-user-btn button a{
+	color:white;
+	text-decoration:none;
+}
+
+.about-me-user-btn button:hover{
+	background:none;
+}
+/* -- About Me Area Styles End Here --*/
+
+/*
+================================================
+----- 03. My Skills Area Styles Start Here -----
+================================================
+*/
+#skills{
+	background:#eeeeee;
+}
+
+/* Design Skills */
+.design-skill-area h3{
+	display:inline-block;
+	position:relative;
+	margin-bottom:40px;
+}
+
+.design-skill-area h3:after{
+	position:absolute;
+	content:"";
+	bottom:-5px;
+	left:0;
+	width:75%;
+	height:3px;
+}
+
+.design-skill-bar-right{
+	float:right;
+}
+
+.design-skill-bar{
+	width:100%;
+	height:12px;
+	border-radius:5px;
+	position:relative;
+	margin-bottom:30px;
+}
+
+.design-skill-bar-1{
+	position:absolute;
+	top:50%;
+	left:4px;
+	width:90%;
+	height:8px;
+	transform:translateY(-50%);
+	border-radius:5px;
+}
+
+.design-skill-bar-2{
+	position:absolute;
+	top:50%;
+	left:4px;
+	width:80%;
+	height:8px;
+	transform:translateY(-50%);
+	border-radius:5px;
+}
+
+.design-skill-bar-3{
+	position:absolute;
+	top:50%;
+	left:4px;
+	width:60%;
+	height:8px;
+	transform:translateY(-50%);
+	border-radius:5px;
+}
+
+.design-skill-bar-4{
+	position:absolute;
+	top:50%;
+	left:4px;
+	width:90%;
+	height:8px;
+	transform:translateY(-50%);
+	border-radius:5px;
+}
+
+.design-skill-bar-5{
+	position:absolute;
+	top:50%;
+	left:4px;
+	width:80%;
+	height:8px;
+	transform:translateY(-50%);
+	border-radius:5px;
+}
+/* End */
+
+/* Development Skills */
+.development-skill-area h3{
+	display:inline-block;
+	position:relative;
+	margin-bottom:40px;
+}
+
+.development-skill-area h3:after{
+	position:absolute;
+	content:"";
+	bottom:-5px;
+	left:0;
+	width:75%;
+	height:3px;
+}
+
+.development-skill-bar-right{
+	float:right;
+}
+
+.development-skill-bar{
+	width:100%;
+	height:12px;
+	border-radius:5px;
+	position:relative;
+	margin-bottom:30px;
+}
+
+.development-skill-bar-1{
+	position:absolute;
+	top:50%;
+	left:4px;
+	width:70%;
+	height:8px;
+	transform:translateY(-50%);
+	border-radius:5px;
+}
+
+.development-skill-bar-2{
+	position:absolute;
+	top:50%;
+	left:4px;
+	width:80%;
+	height:8px;
+	transform:translateY(-50%);
+	border-radius:5px;
+}
+
+.development-skill-bar-3{
+	position:absolute;
+	top:50%;
+	left:4px;
+	width:60%;
+	height:8px;
+	transform:translateY(-50%);
+	border-radius:5px;
+}
+
+.development-skill-bar-4{
+	position:absolute;
+	top:50%;
+	left:4px;
+	width:50%;
+	height:8px;
+	transform:translateY(-50%);
+	border-radius:5px;
+}
+
+.development-skill-bar-5{
+	position:absolute;
+	top:50%;
+	left:4px;
+	width:40%;
+	height:8px;
+	transform:translateY(-50%);
+	border-radius:5px;
+}
+/* End */
+
+/* Language Skills */
+.language-skills-title{
+	display:inline-block;
+	position:relative;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+.language-skills-title:after{
+	position:absolute;
+	content:"";
+	bottom:-5px;
+	left:0;
+	width:75%;
+	height:3px;
+}
+/* End */
+
+/* -- My Skills Area Styles End Here --*/
+
+/*
+================================================
+----- 04. My Resume Area Styles Start Here -----
+================================================
+*/
+
+/* Education Section Area*/
+.education-section-title{
+	margin-bottom:20px;
+	display:inline-block;
+	position:relative;
+}
+
+.education-section-title:before{
+	content:"";
+	position:absolute;
+	left:0;
+	bottom:-3px;
+	width:75%;
+	height:3px;
+}
+
+.education-section-item{
+	width:100%;
+	height:100%;
+	min-height:250px;
+	padding:15px;
+}
+
+.education-section-item:hover{
+	color:white;
+}
+
+.education-section-item:hover h5{
+	color:white;
+}
+
+.education-section-item p{
+	margin-top:20px;
+}
+
+/* Work Experience Section Area*/
+.work-section-title{
+	margin-bottom:20px;
+	display:inline-block;
+	position:relative;
+}
+
+.work-section-title:before{
+	content:"";
+	position:absolute;
+	left:0;
+	bottom:-3px;
+	width:75%;
+	height:3px;
+}
+
+.work-section-item{
+	width:100%;
+	height:100%;
+	min-height:250px;
+	padding:15px;
+}
+
+.work-section-item:hover{
+	color:white;
+}
+
+.work-section-item:hover h5{
+	color:white;
+}
+
+.work-section-item p{
+	margin-top:20px;
+}
+/* -- My Resume Area Styles End Here --*/
+
+/*
+========================================================
+----- 05. Countdown Section Area Styles Start Here -----
+========================================================
+*/
+.countdown-section{
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), #1b1c21 url(../img/countdown.jpg) 0% 0%/auto repeat scroll;
+    background-position: 50% 0;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+	color:white;
+	text-align:center;
+}
+
+.countdown-section i{
+	font-size:50px;
+	margin-bottom:20px;
+}
+/* -- Countdown Section Area Styles End Here --*/
+
+/*
+==================================================
+----- 06. My Services Area Styles Start Here -----
+==================================================
+*/
+#my-services{
+	background:#eeeeee;
+}
+
+.service-item-area-column{
+	margin-bottom:20px;
+}
+
+.service-item-area{
+	padding:30px 15px;
+	width:100%;
+	height:100%;
+	min-height:320px;
+	border-radius:10px;
+}
+
+.service-item{
+	text-align:center;
+}
+
+.service-item i{
+	font-size:80px;
+	display:block;
+	margin-bottom:20px;
+}
+
+.service-item button{
+	color:white;
+	padding:5px 15px;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.service-item button:hover{
+	background:none;
+}
+/* -- My Services Area Styles End Here --*/
+
+/*
+==============================================
+----- 07. Hire Me Area Styles Start Here -----
+==============================================
+*/
+.hire-me-section{
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), #1b1c21 url(../img/hire-me.jpg) 0% 0%/auto repeat scroll;
+    background-position: 50% 0;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+	color:white;
+	text-align:center;
+}
+
+.hire-me-section button{
+	padding:10px 35px;
+	font-size:20px;
+	color:white;
+	margin-top:20px;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.hire-me-section button:hover{
+	background:none;
+	color:white;
+	border:1px solid white;	
+}
+/* -- Hire Me Area Styles End Here --*/
+
+/*
+========================================================
+----- 08. Portfolio Section Area Styles Start Here -----
+========================================================
+*/
+.portfolio-menu{
+	text-align:center;
+}
+
+.portfolio-menu ul li{
+	display:inline-block;
+	padding:15px 30px;
+	margin-bottom:20px;
+	margin-right:20px;
+	cursor:pointer;
+}
+
+.portfolio-active-menu, .portfolio-menu ul li:hover{
+	color:white;
+}
+
+.portfolio-item-area{
+	margin-bottom:20px;
+	position:relative;
+	width:100%;
+	height:380px;
+	background-position:center center;
+	background-size:cover;
+}
+
+.portfolio-item-1{
+	background:url(../img/portfolio/portfolio-1.jpeg);
+}
+
+.portfolio-item-2{
+	background:url(../img/portfolio/portfolio-2.jpeg);
+}
+
+.portfolio-item-3{
+	background:url(../img/portfolio/portfolio-3.jpeg);
+}
+
+.portfolio-item-4{
+	background:url(../img/portfolio/portfolio-4.jpeg);
+}
+
+.portfolio-item-5{
+	background:url(../img/portfolio/portfolio-5.jpeg);
+}
+
+.portfolio-item-6{
+	background:url(../img/portfolio/portfolio-1.jpeg);
+}
+
+.portfolio-item-area:hover .portfolio-item-hover{
+	opacity:1;
+}
+
+.portfolio-item-hover{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:50%;
+	left:50%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:white;
+	transform:translate(-50%,-50%);
+	opacity:0;
+	margin-top:-50px;
+}
+
+.portfolio-item-hover i{
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	border-radius:50%;
+	margin-right:20px;
+	font-size:20px;
+	cursor:pointer;
+}
+
+.portfolio-item-hover a{
+	color:white;
+}
+
+.portfolio-item-hover i:hover{
+	background:none;
+}
+
+.portfolio-item-title{
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:100%;
+	height:100px;
+	background:white;
+	padding-left:15px;
+	padding-top:15px;
+}
+/* -- Portfolio Section Area Styles End Here --*/
+
+/*
+===========================================================
+----- 09. Testimonials Section Area Styles Start Here -----
+===========================================================
+*/
+#my-testimonials{
+	background:#eeeeee;
+}
+
+.testimonials-item{
+	padding:30px 15px;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.testimonials-img-area{
+	width:100%;
+	left:50%;
+	transform:translateX(50%);
+	margin-left:-75px;
+}
+
+.testimonials-img{
+	width:150px;
+	border-radius:10px;
+	overflow:hidden;
+	text-align:center;
+}
+
+.testimonials-img img{
+	width:100%;
+	height:100%;	
+}
+
+.testimonials-content{
+	
+}
+
+.testimonials-content h3{
+	margin-top:20px;
+	margin-bottom:0px;
+}
+
+.owl-nav{
+	text-align:center;
+}
+
+.owl-dots{
+	display:none;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+	width:60px;
+	height:40px;
+	background:black;
+	color:white;
+	font-size:30px;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+	border-radius:20px 0px 0px 20px;
+	margin-right:20px;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+	border-radius:0px 20px 20px 0px;
+}
+/* -- Testimonials Section Area Styles End Here --*/
+
+/*
+===================================================
+----- 10. Blog Section Area Styles Start Here -----
+===================================================
+*/
+.blog-item-area{
+	width:100%;
+	height:100%;
+	min-height:600px;
+}
+
+.blog-item-image{
+	position:relative;
+}
+
+.blog-item-image img{
+	width:100%;
+	height:240px;
+}
+
+.blog-item-cat{
+	position:absolute;
+	top:20px;
+	left:20px;
+	padding:5px 10px;
+	color:white;
+	cursor:pointer;
+}
+
+.blog-item-content{
+	padding:0px 15px;
+}
+
+.blog-item-content h4{
+	margin:10px 0px;
+}
+
+.blog-item-content h4 a{
+	text-decoration:none;
+	color:black;
+}
+
+.blog-item-content-details{
+	margin-bottom:20px;
+}
+
+.blog-item-content-details a{
+	text-decoration:none;
+	color:black;
+}
+
+.blog-item-content-writer, .blog-item-content-time, .blog-item-content-comment{
+	display:inline-block;
+	margin-right:15px;
+}
+
+.read-more-btn{
+	margin-top:40px;
+}
+
+.read-more-btn a{
+	text-decoration:none;
+	color:white;
+	padding:10px 30px;
+}
+
+.read-more-btn a:hover{
+	background:none;
+}
+
+.views-all-posts-btn{
+	margin:60px auto;
+}
+
+.views-all-posts-btn a{
+	text-decoration:none;
+	background:red;
+	color:white;
+	border:1px solid red;
+	padding:10px 30px;
+}
+
+.views-all-posts-btn a:hover{
+	background:none;
+	color:red;
+}
+/* -- Blog Section Area Styles End Here --*/
+
+/*
+========================================================
+----- 11. Subscribe Section Area Styles Start Here -----
+========================================================
+*/
+.subscribe-section{
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), #1b1c21 url(../img/subscribe.jpg) 0% 0%/auto repeat scroll;
+    background-position: 50% 0;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+	color:white;
+	text-align:center;
+}
+
+.subscribe-box{
+	margin-top:20px;
+	position:relative;
+	display:inline-block;
+}
+
+.subscribe-box input{
+	padding:10px 15px;
+	width:400px;
+	border:none;
+}
+
+.subscribe-box button{
+	position:absolute;
+	top:0;
+	right:0;
+	padding:10px 25px;
+	border:none;
+	color:white;
+	cursor:pointer;
+}
+/* -- Subscribe Section Area Styles End Here --*/
+
+/*
+=========================================================
+----- 12. Contact Me Section Area Styles Start Here -----
+=========================================================
+*/
+#contact-me{
+	background:#eeeeee;
+}
+
+.contact-left-section{
+	padding:25px 15px;
+	font-size:16px;
+}
+
+.contact-left-section input,textarea{
+	width:100%;
+	padding:5px 10px;
+	margin-bottom:20px;
+}
+
+.contact-left-section button{
+	width:100%;
+	font-size:20px;
+	padding:5px 10px;
+	cursor:pointer;
+	color:white;
+}
+
+.contact-left-section button:hover{
+	background:none;
+}
+
+.contact-left-section h4{
+	display:inline-block;
+	margin-bottom:25px;
+	margin-left:15px;
+	position:relative;
+}
+
+.contact-left-section h4:before{
+	content:"";
+	position:absolute;
+	bottom:-5px;
+	left:0px;
+	width:50%;
+	height:3px;
+}
+
+.contact-right-section{
+	background:#f0f4f7;
+	padding:25px 15px;
+	font-size:16px;
+}
+
+.contact-right-section h4{
+	display:inline-block;
+	margin-bottom:25px;
+	position:relative;
+}
+
+.contact-right-section h4:before{
+	content:"";
+	position:absolute;
+	bottom:-5px;
+	left:0px;
+	width:50%;
+	height:3px;
+}
+
+.contact-right-item{
+	display:block;
+}
+.contact-icon{
+	float:left;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	font-size:25px;
+	border-radius:10px;
+	color:white;
+	margin-right:15px;
+}
+.contact-info{
+	display:inline-block;
+}
+/* -- Contact Me Section Area Styles End Here --*/
+
+/*
+=============================================
+----- 13. Footer Area Styles Start Here -----
+=============================================
+*/
+footer{
+	padding:70px 0px;
+	background:#1c1c1c;
+	color:white;
+	text-align:center;	
+}
+
+.footer-social-btn ul{
+	list-style:none;
+}
+
+.footer-social-btn li{
+	display:inline-block;
+	margin-left:10px;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	border:1px solid white;
+	cursor:pointer;
+	font-size:20px;
+	margin-bottom:20px;
+}
+
+.footer-social-btn li:first-child{
+	margin-left:0px;
+}
+
+.footer-social-btn a{
+	color:white;
+}
+
+.footer-social-btn li:hover a{
+	color:white;
+}
+/* -- Footer Area Styles End Here --*/

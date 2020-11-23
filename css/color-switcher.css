@@ -1,0 +1,99 @@
+/*
+ Template Name: Peter Morgan Responsive Portfolio Template
+ Template URI: http://bashir-rased.com/portfolio/Demo-1
+ Author: Bashir Rased
+ Author URI: http://bashir-rased.com/
+ Version: 1.0.1
+*/
+
+/*
+===================================
+----- Switcher Box Start Here -----
+===================================
+*/
+.switcher {
+	position: fixed;
+	top: 280px;
+	left: -251px;
+	z-index: 1080;
+	width: 250px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	text-align: center;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 2px 4px 12px rgba(0,0,0,0.1);
+}
+.switch{
+	position: absolute;
+	left: 100%;
+	top: 13px;
+	width: 35px;
+	height: 38px;
+	line-height: 37px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	background: #007bff;
+	border: 1px solid #007bff;
+	cursor: pointer;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.switcher hr{ 
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border: 0; 
+	border-top: 1px solid #eee;
+}
+.switcher  h4{
+	margin-top: 0;
+	font-size: 18px;
+	line-height: 20px;
+}
+.switcher  p{
+	font-size: 14px;
+	line-height: 20px;
+	color: #878787;
+}
+.s-layout {
+	border: 1px solid #ddd !important;
+	outline: none;
+	height: 30px;
+	width: 160px;
+	margin-top: 6px;
+	padding: 0 5px;
+	color: #767676;
+	border-radius: 2px;
+}
+
+.s-color a {
+	width: 70px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 4px;
+}
+
+a[data-code="blue"] {
+	background: #007bff;
+}
+a[data-code="green"] {
+	background:#2ed87b;
+}
+a[data-code="golden"] {
+	background: #B27100;
+}
+a[data-code="yellow"] {
+	background:#ed8a19;
+}
+a[data-code="red"] {
+	background:#f34236;
+}
+a[data-code="black"] {
+	background:black;
+}
+/* Switcher Box End Here */

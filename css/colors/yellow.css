@@ -1,0 +1,627 @@
+/*
+ Template Name: Peter Morgan Responsive Portfolio Template
+ Template URI: http://bashir-rased.com/portfolio/Demo-1
+ Author: Bashir Rased
+ Author URI: http://bashir-rased.com/
+ Version: 1.0.1
+*/
+
+/*
+=========================================
+----- Header Area Styles Start Here -----
+=========================================
+*/
+.header-top{
+	background:#ed8a19;
+}
+
+.header-menu-left h1 a{
+	color:#ed8a19;
+}
+
+.slicknav_btn{
+	background:#ed8a19;
+}
+
+.slicknav_nav{
+	background:#ed8a19;
+}
+
+.slicknav_nav a:hover{
+	color:#ed8a19;	
+}
+
+.menu-active, .header-menu li:hover a{
+	color:#ed8a19;
+}
+
+.header-left-area h1 span{
+	color:#ed8a19;
+}
+
+.header-social-btn li{
+	border:1px solid #ed8a19;
+}
+
+.header-social-btn li:hover{
+	background:#ed8a19;
+}
+
+.header-social-btn a{
+	color:#ed8a19;
+}
+/* -- Header Area Styles End Here --*/
+
+/*
+===========================================
+----- About Me Area Styles Start Here -----
+===========================================
+*/
+.about-me-img{
+	border:1px solid #ed8a19;
+}
+
+.about-me-img-after{
+	color:#ed8a19;
+}
+
+.about-me-img-after:after{
+	background:#ed8a19;
+}
+
+.about-me-content h1:after{
+	background:#ed8a19;
+}
+
+.about-me-user-info li{
+	color:#ed8a19;
+}
+
+.about-me-user-btn button{
+	background:#ed8a19;
+	border:1px solid #ed8a19;
+}
+
+.about-me-user-btn button:hover a{
+	color:#ed8a19;
+}
+/* -- About Me Area Styles End Here --*/
+
+/*
+============================================
+----- My Skills Area Styles Start Here -----
+============================================
+*/
+
+/* Design Skills */
+.design-skill-area h3:after{
+	background:#ed8a19;
+}
+
+.design-skill-bar{
+	border:1px solid #ed8a19;
+}
+
+.design-skill-bar-1{
+	background:#ed8a19;
+}
+
+.design-skill-bar-2{
+	background:#ed8a19;
+}
+
+.design-skill-bar-3{
+	background:#ed8a19;
+}
+
+.design-skill-bar-4{
+	background:#ed8a19;
+}
+
+.design-skill-bar-5{
+	background:#ed8a19;
+}
+/* End */
+
+/* Development Skills */
+.development-skill-area h3:after{
+	background:#ed8a19;
+}
+
+.development-skill-bar{
+	border:1px solid #ed8a19;
+}
+
+.development-skill-bar-1{
+	background:#ed8a19;
+}
+
+.development-skill-bar-2{
+	background:#ed8a19;
+}
+
+.development-skill-bar-3{
+	background:#ed8a19;
+}
+
+.development-skill-bar-4{
+	background:#ed8a19;
+}
+
+.development-skill-bar-5{
+	background:#ed8a19;
+}
+/* End */
+
+/* Language Skills */
+.language-skills-title:after{
+	background:#ed8a19;
+}
+
+.language-skills-area i{
+	color:#ed8a19;
+}
+/* End */
+
+/* -- My Skills Area Styles End Here --*/
+
+/*
+===========================================
+----- My Resume Area Styles Start Here -----
+===========================================
+*/
+
+/* Education Section Area*/
+.education-section-item:hover{
+	background:#ed8a19;
+}
+
+.education-section-title:before{
+	background:#ed8a19;
+}
+
+.education-section-item{
+	border:1px solid #ed8a19;
+}
+
+.education-section-item h5{
+	color:#ed8a19;
+}
+
+/* Work Experience Section Area*/
+.work-section-item:hover{
+	background:#ed8a19;
+}
+
+.work-section-title:before{
+	background:#ed8a19;
+}
+
+.work-section-item{
+	border:1px solid #ed8a19;
+}
+
+.work-section-item h5{
+	color:#ed8a19;
+}
+/* -- My Resume Area Styles End Here --*/
+
+/*
+====================================================
+----- Countdown Section Area Styles Start Here -----
+====================================================
+*/
+/* -- Countdown Section Area Styles End Here --*/
+
+/*
+==============================================
+----- My Services Area Styles Start Here -----
+==============================================
+*/
+.service-item-area{
+	border:1px solid #ed8a19;
+}
+
+.service-item h4, .service-item i{
+	color:#ed8a19;
+}
+/* -- My Services Area Styles End Here --*/
+
+/*
+==========================================
+----- Hire Me Area Styles Start Here -----
+==========================================
+*/
+.hire-me-section button{
+	border:1px solid #ed8a19;
+	background:#ed8a19;
+}
+/* -- Hire Me Area Styles End Here --*/
+
+/*
+=======================================================
+----- Portfolio Section Area Styles Start Here -----
+=======================================================
+*/
+.portfolio-menu ul li{
+	border:1px solid #ed8a19;
+}
+
+.portfolio-active-menu, .portfolio-menu ul li:hover{
+	background:#ed8a19;
+}
+
+.portfolio-item-area{
+	border:1px solid #ed8a19;
+}
+
+.portfolio-item-hover i{
+	background:#ed8a19;
+	border:1px solid #ed8a19;
+}
+
+.portfolio-item-hover i:hover{
+	color:#ed8a19;
+}
+
+.portfolio-item-title h4{
+	color:#ed8a19;
+}
+/* -- Portfolio Section Area Styles End Here --*/
+
+/*
+=======================================================
+----- Testimonials Section Area Styles Start Here -----
+=======================================================
+*/
+.testimonials-item{
+	border:1px solid #ed8a19;
+}
+
+.testimonials-content h3{
+	color:#ed8a19;
+}
+
+.testimonials-client-star-marks{
+	color:#ed8a19;
+}
+
+.owl-carousel .owl-nav button:focus{
+	background:#ed8a19;
+}
+/* -- Testimonials Section Area Styles End Here --*/
+
+/*
+===============================================
+----- Blog Section Area Styles Start Here -----
+===============================================
+*/
+.blog-item-area{
+	border:1px solid #ed8a19;
+}
+
+.blog-item-cat{
+	background:#ed8a19;
+	border:1px solid #ed8a19;
+}
+
+.blog-item-content h4 a:hover{
+	color:#ed8a19;
+}
+
+.blog-item-content-details i{
+	color:#ed8a19;
+}
+
+.blog-item-content-details a:hover{
+	color:#ed8a19;
+}
+
+.read-more-btn a{
+	border:1px solid #ed8a19;
+	background:#ed8a19;
+}
+
+.read-more-btn a:hover{
+	color:#ed8a19;
+}
+
+.views-all-posts-btn a{
+	background:#ed8a19;
+	border:1px solid #ed8a19;
+}
+
+.views-all-posts-btn a:hover{
+	color:#ed8a19;
+}
+/* -- Blog Section Area Styles End Here --*/
+
+/*
+====================================================
+----- Subscribe Section Area Styles Start Here -----
+====================================================
+*/
+.subscribe-box button{
+	background:#ed8a19;
+}
+/* -- Subscribe Section Area Styles End Here --*/
+
+/*
+=====================================================
+----- Contact Me Section Area Styles Start Here -----
+=====================================================
+*/
+.contact-left-section button{
+	background:#ed8a19;
+	border:1px solid #ed8a19;
+}
+
+.contact-left-section button:hover{
+	color:#ed8a19;
+}
+
+.contact-left-section h4:before{	
+	background:#ed8a19;
+}
+
+.contact-right-section{
+	background:#f0f4f7;
+}
+
+.contact-right-section h4:before{	
+	background:#ed8a19;
+}
+
+.contact-icon{
+	background:#ed8a19;
+}
+/* -- Contact Me Section Area Styles End Here --*/
+
+/*
+=====================================================
+----- Footer Area Styles Start Here -----
+=====================================================
+*/
+.footer-social-btn li:hover{
+	background:#ed8a19;
+	border:1px solid #ed8a19;
+}
+/* -- Footer Area Styles End Here --*/
+
+/*
+====================================
+----- Section Title Start Here -----
+====================================
+*/
+.section-header{
+	color:#ed8a19;
+}
+/* Section Titel End Here */
+
+/*
+==============================================
+----- Back to Top Area Styles Start Here -----
+==============================================
+*/
+.back-to-top-area{
+	background:#ed8a19;
+	border:2px solid #ed8a19;
+}
+
+.back-to-top-area:hover a{
+	color:#ed8a19;	
+}
+/* -- Back to Top Area Styles End Here --*/
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+	.header-social-btn li:hover{
+		border:1px solid #ed8a19;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+	
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+	.header-social-btn li{
+		border:1px solid #ed8a19;
+	}
+	.header-social-btn a{
+		color:#ed8a19;
+	}
+}
+
+/*
+===============================================
+----- Blog Section Area Styles Start Here -----
+===============================================
+*/
+.single-blog-area{
+	border-bottom:1px solid #ed8a19;
+}
+
+.blog-title a:hover{
+	color:#ed8a19;
+}
+
+.blog-cat a{
+	background:#ed8a19;
+}
+
+.blog-details i{
+	color:#ed8a19;
+}
+
+.blog-details a:hover{
+	color:#ed8a19;
+}
+
+.read-more a{
+	border:1px solid #ed8a19;
+	background:#ed8a19;
+}
+
+.read-more a:hover{
+	color:#ed8a19;
+}
+
+.blog-pagination li{
+	border:1px solid #ed8a19;
+}
+
+.blog-pagination a{
+	color:#ed8a19;
+}
+
+.blog-pagination li:hover a{
+	background:#ed8a19;
+}
+
+/* Sidebar Area Start Here */
+.sidebar-title{
+	background:#ed8a19;
+}
+
+/* 1. Single Blog Search Box Start Here */
+.sidebar-search-box{
+	border:1px solid #ed8a19;
+}
+
+.sidebar-search-submit{
+	background:#ed8a19;
+}
+/* 1. Single Blog Search Box End Here */
+
+/* 2. Single Blog User Info Start Here */
+.blog-sidebar-admin-img{
+	border:1px solid #ed8a19;
+}
+/* 2. Single Blog User Info End Here */
+
+/* 3. Single Blog Recent Post List Start Here */
+.sidebar-recent-post-list li:hover{
+	color:#ed8a19;
+}
+
+.sidebar-recent-post-list a:hover{
+	color:#ed8a19;
+}
+/* 3. Single Blog Recent Post List End Here */
+
+/* 4. Single Blog Recent Comments List Start Here */
+.sidebar-recent-comments-time i{
+	color:#ed8a19;
+}
+
+.sidebar-recent-comments-time:hover{
+	color:#ed8a19;
+}
+
+.sidebar-recent-comments-person{
+	border:1px solid #ed8a19;
+}
+/* 4. Single Blog Recent Comments List End Here */
+
+/* 5. Single Blog Popular Post List Start Here */
+.sidebar-popular-post-list li:hover{
+	color:#ed8a19;
+}
+
+.sidebar-popular-post-list a:hover{
+	color:#ed8a19;
+}
+/* 5. Single Blog Popular Post List End Here */
+
+/* 6. Single Blog Category List Start Here */
+.sidebar-cat-list li:hover{
+	color:#ed8a19;
+}
+
+.sidebar-cat-list a:hover{
+	color:#ed8a19;
+}
+/* 6. Single Blog Category List End Here */
+
+/* 7. Single Blog Calendar Start Here */
+.rapCalendar{
+	border: 1px solid #ed8a19;
+}
+
+.rapCalendar caption{
+	color:#ed8a19;
+}
+
+.rapCalendar .calSelected, .rapCalendar .calSelectable:hover{
+	border-color:#ed8a19;
+	background-color:#ed8a19;
+}
+/* 7. Single Blog Calendar End Here */
+/* Sidebar Area End Here */
+/* -- Blog Section Area Styles End Here --*/
+
+.cd-headline.clip .cd-words-wrapper::after {
+     /* line */
+     background:#ed8a19;
+}
+
+/* Blog Details Page */
+.blog-post-comment-box{
+	border-bottom:1px solid #ed8a19;
+}
+
+.blog-post-comment-title:after{
+	background:#ed8a19;
+}
+
+.blog-post-comment input, .blog-post-comment textarea{
+	border:1px solid #ed8a19;
+}
+
+.blog-post-comment-submit{
+	border:1px solid #ed8a19;
+	background:#ed8a19;
+}
+
+.blog-post-comment-submit:hover{
+	color:#ed8a19;
+}
+
+.blog-post-comment-persons-single-img{
+	border:1px solid #ed8a19;
+}
+
+.blog-post-comment-persons-single-comment h5 a{
+	color:#ed8a19;
+}
+
+.blog-post-comment-persons-single-comment button{
+	background:#ed8a19;
+	border:1px solid #ed8a19;
+}
+
+.blog-post-comment-persons-single-comment button:hover{
+	color:#ed8a19;
+}
+
+/* Main Page CSS */
+.purchase a{
+	background:#ed8a19;
+	border:1px solid #ed8a19;
+}
+
+.purchase a:hover{
+	color:#ed8a19;
+}
+
+.demos .single-demo .caption{
+	background:#ed8a19;
+}

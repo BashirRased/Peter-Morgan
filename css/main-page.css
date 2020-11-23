@@ -1,0 +1,121 @@
+/*
+ Template Name: Peter Morgan Responsive Portfolio Template
+ Template URI: http://bashir-rased.com/portfolio/Demo-1
+ Author: Bashir Rased
+ Author URI: http://bashir-rased.com/
+ Version: 1.0.1
+*/
+
+/*
+=========================================
+----- Header Area Styles Start Here -----
+=========================================
+*/
+header{
+	padding:25px 0px;
+}
+
+.purchase a{
+	text-decoration:none;
+	color:white;
+	padding:10px 30px;
+}
+
+.purchase a:hover{
+	background:none;
+}
+/* -- Header Area Styles End Here --*/
+
+/*
+=========================================
+----- Content Area Styles Start Here -----
+=========================================
+*/
+.demos{
+	padding-bottom:25px;
+}
+
+.demos .single-demo{
+	box-shadow:0 10px 30px rgba(121, 121, 121, 0.27);
+	height:600px;
+	position:relative;
+}
+
+.demo-1{
+	background:url(../img/home-page.jpg);
+	background-position:center;
+	background-size:cover;
+}
+
+.demo-2{
+	background:url(../img/blog-page.jpg);
+	background-position:center;
+	background-size:cover;
+}
+
+.demo-3{
+	background:url(../img/blog-details-page.jpg);
+	background-position:center;
+	background-size:cover;
+}
+
+.demos .single-demo .caption{
+	display:block;
+	font-size:15px;
+	font-weight:700;
+	text-align:center;
+	box-shadow:inset 0px 2px 2px 0px rgba(0,0,0,0.08);
+	bottom:0px;
+	position:absolute;
+	width:100%;
+	height:50px;
+	line-height:50px;
+}
+
+.demos a{
+	text-decoration:none;
+	color:white;
+}
+/* -- Content Area Styles End Here --*/
+
+/*
+=========================================
+----- Footer Area Styles Start Here -----
+=========================================
+*/
+footer{
+	padding:70px 0px;
+	background:#1c1c1c;
+	color:white;
+	text-align:center;	
+}
+
+.footer-social-btn ul{
+	list-style:none;
+}
+
+.footer-social-btn li{
+	display:inline-block;
+	margin-left:10px;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	border:1px solid white;
+	cursor:pointer;
+	font-size:20px;
+	margin-bottom:20px;
+}
+
+.footer-social-btn li:first-child{
+	margin-left:0px;
+}
+
+.footer-social-btn a{
+	color:white;
+}
+
+.footer-social-btn li:hover a{
+	color:white;
+}
+/* -- Footer Area Styles End Here --*/

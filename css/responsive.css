@@ -1,0 +1,127 @@
+/*
+ Template Name: Peter Morgan Responsive Portfolio Template
+ Template URI: http://bashir-rased.com/portfolio/Demo-1
+ Author: Bashir Rased
+ Author URI: http://bashir-rased.com/
+ Version: 1.0.1
+*/
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1201px){
+	.header-left-area{
+		z-index:3;
+	}
+}
+@media (max-width: 1200px) {
+	.header-menu-left h1{
+		font-size:30px;
+	}
+	.header-menu{
+		display:none;
+	}
+	.slicknav_menu {
+		display:block;
+		z-index:9999;
+	}
+	.header-left-area{
+		top:125px;
+		left:50%;
+		transform:translateX(-50%);
+		width:80%;
+		text-align:center;
+		z-index:1;
+		background:rgba(0,0,0,0.5);
+		color:white;
+		padding:20px 0px;
+	}
+	.header-social-btn li{
+		border:1px solid white;
+	}
+	.header-social-btn a{
+		color:white;
+	}	
+	.header-right-area{
+		left:50%;
+		transform:translateX(-50%);
+		text-align:center;
+	}
+	.header-right-area img{
+		float:none;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+	.header-top{
+		text-align:center;
+	}
+	.slicknav_btn{
+		margin-top:-80px;
+	}
+	.slicknav_nav{
+		margin-top:0px;
+	}
+	.header-top-right{
+		float:none;
+	}
+	.header-right-area img{
+		height: calc(100vh - 190px);
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+	.header-left-area p{
+		font-size:20px;
+	}
+	.header-left-area h1{
+		font-size:50px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+	.header-menu-left h1{
+		font-size:25px;
+	}
+	.header-left-area{
+		background:none;
+		color:black;
+		top:160px;
+	}
+	.header-left-area p{
+		font-size:15px;
+	}
+	.header-left-area h1{
+		font-size:35px;
+	}
+	.header-right-area{
+		display:none;
+	}
+	
+	.section-header h1{
+		font-size:20px;
+		width:150px;
+	}
+
+	.section-header h1:before{
+		width:90%;
+	}
+	
+	.subscribe-box{
+		margin-top:5px;
+	}
+	
+	.subscribe-box input{
+		padding:5px 10px;
+		width:100%;
+	}
+	
+	.subscribe-box button{
+		top:50px;
+		left:50%;
+		transform:translateX(-50%);
+		padding:5px 10px;
+	}
+}
